@@ -1,0 +1,42 @@
+[
+    {
+        "id": "testimonial-001",
+        "name": "Kia Salehi",
+        "location": "Google Review",
+        "text": "We were very impressed with Sam Salem's professionalism, personal attention, and marketing strategies. Sam is a first-class, high-caliber, real estate professional.",
+        "rating": 5,
+        "source": "Google"
+    },
+    {
+        "id": "testimonial-002",
+        "name": "Nahid Alavi",
+        "location": "Google Review",
+        "text": "Sam Salem is an experienced realtor that listens to his clients. He was ever so patient in our search for the perfect home. Sam was very responsive to our calls and was excellent in walking us through the home buying experience step by step without overwhelming us. Sam was so professional. We were proud to have him represent us in the sale of our home and the purchase of the new one. It was apparent that he cared about us and wanted to help us find a home that suited our lifestyle and family.",
+        "rating": 5,
+        "source": "Google"
+    },
+    {
+        "id": "testimonial-003",
+        "name": "Solmaz Ghasemian",
+        "location": "Google Review",
+        "text": "We had an excellent experience working with Sam Salem and his team. They sold our apartment in Pitt Meadows off market, which really showed their strong network, strategy, and professionalism. Sam was knowledgeable, responsive, and guided us through every step with confidence and transparency. The entire process was smooth and stress-free, and we felt well taken care of from start to finish.",
+        "rating": 5,
+        "source": "Google"
+    },
+    {
+        "id": "testimonial-004",
+        "name": "Niaz Javidtajrishi",
+        "location": "Google Review",
+        "text": "I had an amazing experience working with Sam Salem to buy my home! He was incredibly professional, patient, and knowledgeable throughout the entire process. As a homebuyer, I had lots of questions, and he took the time to explain everything clearly and guide me step by step. He was always available, quick to respond, and truly had my best interests at heart.",
+        "rating": 5,
+        "source": "Google"
+    },
+    {
+        "id": "testimonial-005",
+        "name": "Shahnaz Daneshpajouh",
+        "location": "Google Review",
+        "text": "Amazing experience with Sam Salem's team. Their professionalism and expertise is top notch. We had a difficult time showcasing the potential worth of our home with our previous realtor and we decided to hire Sam Salem. He found buyers in less than 24 hours and in less than a month everything was sorted efficiently without any obstacles. We 100% recommend them.",
+        "rating": 5,
+        "source": "Google"
+    }
+]

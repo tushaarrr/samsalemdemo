@@ -1,0 +1,132 @@
+[
+    {
+        "slug": "burnaby",
+        "name": "Burnaby",
+        "description": "Burnaby is the third-largest city in British Columbia, offering a perfect blend of urban convenience and natural beauty. Home to Simon Fraser University and Metrotown — one of BC's largest shopping centres — Burnaby provides diverse housing options from modern high-rise condos to spacious family homes. The city features extensive parks including Burnaby Mountain and Central Park, along with excellent transit connections via SkyTrain.",
+        "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800",
+        "avgPrice": 1150000,
+        "highlights": [
+            "Metrotown and Brentwood shopping districts",
+            "SkyTrain rapid transit access",
+            "Simon Fraser University campus",
+            "Burnaby Mountain and Central Park"
+        ]
+    },
+    {
+        "slug": "coquitlam",
+        "name": "Coquitlam",
+        "description": "Coquitlam is a thriving city nestled between the mountains and the Fraser River. The Evergreen Extension of the SkyTrain has transformed this family-friendly community, bringing new development and investment. With Coquitlam Centre, excellent schools, and easy access to hiking trails along the Coquitlam Crunch and Minnekhada Regional Park, it's become one of the Lower Mainland's most desirable communities.",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+        "avgPrice": 1250000,
+        "highlights": [
+            "Evergreen SkyTrain line access",
+            "Coquitlam Centre and Westwood Plateau",
+            "Top-rated school districts",
+            "Stunning mountain backdrop living"
+        ]
+    },
+    {
+        "slug": "maple-ridge",
+        "name": "Maple Ridge",
+        "description": "Maple Ridge offers the best of rural charm and suburban convenience in the Fraser Valley. Known for Golden Ears Provincial Park and its equestrian community, Maple Ridge provides larger lots and more affordable housing options while maintaining a strong sense of community. The revitalized downtown core along 224th Street features local shops, restaurants, and a growing arts scene.",
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+        "avgPrice": 950000,
+        "highlights": [
+            "Golden Ears Provincial Park access",
+            "Larger lot sizes and acreages",
+            "Revitalized downtown core",
+            "Strong equestrian and farming community"
+        ]
+    },
+    {
+        "slug": "new-westminster",
+        "name": "New Westminster",
+        "description": "As British Columbia's original capital, New Westminster combines rich heritage with modern urban living along the Fraser River waterfront. The city boasts a vibrant downtown with the River Market at Westminster Quay, excellent SkyTrain connectivity, and diverse neighbourhoods from the charming Queens Park to the modern towers of Downtown. It's one of the most walkable and transit-friendly cities in Metro Vancouver.",
+        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
+        "avgPrice": 780000,
+        "highlights": [
+            "Historic charm with modern amenities",
+            "River Market at Westminster Quay",
+            "Three SkyTrain stations",
+            "Queens Park heritage neighbourhood"
+        ]
+    },
+    {
+        "slug": "north-vancouver",
+        "name": "North Vancouver",
+        "description": "North Vancouver is a stunning waterfront community framed by the Coast Mountains. From the bustling Lonsdale Quay to the serene trails of Lynn Canyon, North Vancouver offers an unparalleled outdoor lifestyle. The SeaBus provides quick access to downtown Vancouver, while local neighbourhoods like Edgemont Village and Deep Cove maintain their unique village-like character. It's the perfect blend of mountain and ocean living.",
+        "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800",
+        "avgPrice": 1650000,
+        "highlights": [
+            "Grouse Mountain and Lynn Canyon proximity",
+            "SeaBus and transit to downtown Vancouver",
+            "Lonsdale Quay public market",
+            "World-class hiking and skiing"
+        ]
+    },
+    {
+        "slug": "pitt-meadows",
+        "name": "Pitt Meadows",
+        "description": "Pitt Meadows is a small, tight-knit community known for its natural beauty and outdoor recreation. Situated along the Pitt River with stunning mountain views, the city offers excellent boating, cycling on the famous dyke trails, and access to Pitt Lake — the largest tidal lake in North America. The West Coast Express provides commuter rail service, making it convenient for those working in Vancouver.",
+        "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+        "avgPrice": 880000,
+        "highlights": [
+            "Pitt Lake and Pitt River recreation",
+            "West Coast Express commuter rail",
+            "Extensive cycling and dyke trails",
+            "Small-town community atmosphere"
+        ]
+    },
+    {
+        "slug": "port-coquitlam",
+        "name": "Port Coquitlam",
+        "description": "Port Coquitlam — affectionately known as PoCo — is a welcoming community with a strong sense of identity. The Traboulay PoCo Trail offers a scenic 25-km loop around the city, and the growing downtown area along Shaughnessy Street features local restaurants and boutiques. With the West Coast Express and proximity to the SkyTrain, PoCo provides excellent connectivity to the wider Metro Vancouver region.",
+        "image": "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800",
+        "avgPrice": 920000,
+        "highlights": [
+            "Traboulay PoCo Trail loop",
+            "West Coast Express commuter rail",
+            "Growing downtown revitalization",
+            "Family-friendly neighbourhoods"
+        ]
+    },
+    {
+        "slug": "port-moody",
+        "name": "Port Moody",
+        "description": "Port Moody, the 'City of the Arts,' sits at the eastern end of Burrard Inlet and has become one of Metro Vancouver's most sought-after communities. The Evergreen SkyTrain extension has spurred significant development, while the charming Brewers' Row along Murray Street has earned national attention. Rocky Point Park, Old Mill Park, and the Shoreline Trail offer stunning waterfront recreation right in the heart of the city.",
+        "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800",
+        "avgPrice": 1100000,
+        "highlights": [
+            "Famous Brewers' Row dining district",
+            "Evergreen SkyTrain line access",
+            "Rocky Point Park waterfront",
+            "City of the Arts cultural scene"
+        ]
+    },
+    {
+        "slug": "vancouver",
+        "name": "Vancouver",
+        "description": "Vancouver consistently ranks among the world's most liveable cities, offering a stunning combination of ocean, mountains, and urban sophistication. From the vibrant streets of Yaletown and Gastown to the serene beauty of Stanley Park, Vancouver provides an unmatched quality of life. The city's diverse neighbourhoods each have their own unique character, from the artistic vibes of Main Street to the upscale elegance of Kerrisdale and Shaughnessy.",
+        "image": "https://images.unsplash.com/photo-1609825488888-3a766db05542?w=800",
+        "avgPrice": 1850000,
+        "highlights": [
+            "Stanley Park and Seawall",
+            "World-class dining and entertainment",
+            "Diverse, vibrant neighbourhoods",
+            "Major employment and cultural hub"
+        ]
+    },
+    {
+        "slug": "west-vancouver",
+        "name": "West Vancouver",
+        "description": "West Vancouver is synonymous with luxury living on the North Shore. From the prestigious British Properties to the waterfront estates along the Dundarave and Ambleside shoreline, this municipality offers an unparalleled quality of life. Residents enjoy stunning ocean and city views, access to Lighthouse Park, and proximity to Cypress Mountain. West Vancouver consistently ranks among Canada's most desirable and affluent neighbourhoods.",
+        "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+        "avgPrice": 3200000,
+        "highlights": [
+            "Prestigious British Properties",
+            "Oceanfront Dundarave and Ambleside",
+            "Lighthouse Park and Cypress Mountain",
+            "Top-ranked private and public schools"
+        ]
+    }
+]

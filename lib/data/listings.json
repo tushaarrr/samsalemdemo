@@ -1,0 +1,46 @@
+[
+    {
+        "id": "listing-001",
+        "title": "The Residences at Lynn Valley",
+        "address": "Lynn Valley Centre",
+        "city": "North Vancouver",
+        "area": "Lynn Valley",
+        "price": 1697900,
+        "status": "For Sale",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "sqft": 1895,
+        "propertyType": "Townhouse",
+        "images": [
+            "https://sam-salem.com/paftasse/elementor/thumbs/R2790231_1-qg1syj4lqwwbjgg8w8vq70dghm6z46t6cu9z7rgecg.jpg",
+            "https://sam-salem.com/paftasse/elementor/thumbs/R2790231_2-qg1symvyi91gtwasaai8gzfav5ofyz83pcvx4vatnk.jpg",
+            "https://sam-salem.com/paftasse/elementor/thumbs/R2790231_3-qg1syl0a4kyw6odil9ozbzwdodxpjl0n13ky6bdm00.jpg",
+            "https://sam-salem.com/paftasse/elementor/thumbs/R2790231_4-qg1syj4lqwwbjgg8w8vq70dghm6z46t6cu9z7rgecg.jpg",
+            "https://sam-salem.com/paftasse/elementor/thumbs/R2790231_5-qg1symvyi91gtwasaai8gzfav5ofyz83pcvx4vatnk.jpg",
+            "https://sam-salem.com/paftasse/elementor/thumbs/R2790231_6-qg1syormvx41h481zbbhlyy81xf6edfkdm6w3f81b4.jpg",
+            "https://sam-salem.com/paftasse/elementor/thumbs/R2790231_7-qg1syormvx41h481zbbhlyy81xf6edfkdm6w3f81b4.jpg",
+            "https://sam-salem.com/paftasse/elementor/thumbs/R2790231_8-qg1syj4lqwwbjgg8w8vq70dghm6z46t6cu9z7rgecg.jpg",
+            "https://sam-salem.com/paftasse/elementor/thumbs/R2790231_9-qg1syl0a4kyw6odil9ozbzwdodxpjl0n13ky6bdm00.jpg",
+            "https://sam-salem.com/paftasse/elementor/thumbs/R2790231_10-qg1syl0a4kyw6odil9ozbzwdodxpjl0n13ky6bdm00.jpg"
+        ],
+        "description": "A Must See! The Residences at Lynn Valley. A concrete Townhome built by Bosa Developments. Bright open concept 3 bed + den, 2.5 bath. TWO side-by-side Parking and TWO Locker with 154 Sqft Patio. High ceiling in primary bed (11ft), Modern kitchen interior; All counters are quartz, high end Bosch appliances, gas cooktop and hardwood flooring. Central A/C. 17,000 Sq ft of indoor and outdoor amenities including gym, yoga, sauna/steam room, outdoor BBQ area/social lounge, kids playground, dog wash station and more. In the heart of Lynn Valley Centre.",
+        "features": [
+            "Central A/C",
+            "Quartz countertops",
+            "High-end Bosch appliances",
+            "Gas cooktop",
+            "Hardwood flooring",
+            "11ft ceiling in primary bedroom",
+            "154 sqft patio",
+            "2 side-by-side parking stalls",
+            "2 storage lockers",
+            "Gym, Yoga studio, Sauna/Steam room",
+            "Outdoor BBQ area & Social lounge",
+            "Kids playground & Dog wash station"
+        ],
+        "listedDate": "2026-02-15",
+        "soldDate": null,
+        "mlsId": "R2790231",
+        "listingBrokerage": "Sincere Real Estate Services"
+    }
+]

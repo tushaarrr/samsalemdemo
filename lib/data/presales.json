@@ -1,0 +1,188 @@
+[
+    {
+        "id": "executive-on-the-park",
+        "title": "Executive on the Park",
+        "address": "657 Marine Drive, West Vancouver, BC",
+        "city": "West Vancouver",
+        "area": "West Vancouver",
+        "status": "Presale",
+        "propertyType": "Condo",
+        "bedrooms": "1 - 3",
+        "floors": 8,
+        "totalUnits": 68,
+        "estimatedCompletion": "2024",
+        "developer": "Executive Group Development",
+        "architect": "Dys Architecture and Ryznar Media Inc",
+        "amenities": [
+            "24 Hour Concierge Service",
+            "Bike Room",
+            "Green Space",
+            "On-site Management",
+            "Resident's Lounge"
+        ],
+        "images": [
+            "https://sam-salem.com/paftasse/2023/04/Executive-on-the-Park.jpg",
+            "https://sam-salem.com/paftasse/2023/04/Executive-on-the-Park-15-1024x1022-1.jpg",
+            "https://sam-salem.com/paftasse/2023/04/Executive-on-the-Park-2-1024x611-1.jpg",
+            "https://sam-salem.com/paftasse/2023/04/Executive-on-the-Park-3-1024x576-1.jpg"
+        ],
+        "description": "An exclusive 8-storey concrete building in the heart of West Vancouver. Executive on the Park offers 68 luxury residences with 1 to 3 bedroom configurations, featuring 24hr concierge service, bike room, green space, and a resident's lounge."
+    },
+    {
+        "id": "hue",
+        "title": "Hue",
+        "address": "2025 Saint Johns Street, Port Moody, BC",
+        "city": "Port Moody",
+        "area": "Port Moody",
+        "status": "Presale",
+        "propertyType": "Condo",
+        "bedrooms": "1 - 3",
+        "floors": 6,
+        "totalUnits": 222,
+        "estimatedCompletion": "2025",
+        "developer": "Marcon",
+        "amenities": [],
+        "images": [
+            "https://sam-salem.com/paftasse/2023/04/2022_08_29_09_48_40_hue_image.jpg",
+            "https://sam-salem.com/paftasse/2023/04/2022_08_29_09_51_00_hue_interior5-1024x683-1.jpg",
+            "https://sam-salem.com/paftasse/2023/04/2022_08_29_09_49_19_hue_image2-1024x715-1.jpg",
+            "https://sam-salem.com/paftasse/2023/04/2022_08_29_09_49_39_hue_image3-1024x1024-1.jpg"
+        ],
+        "description": "A 6-storey Marcon development in Port Moody offering 222 modern condo residences with 1 to 3 bedrooms. Located along Saint Johns Street with excellent transit and outdoor recreation access."
+    },
+    {
+        "id": "elmwood",
+        "title": "Elmwood",
+        "address": "612 Elmwood Street, Coquitlam, BC",
+        "city": "Coquitlam",
+        "area": "Coquitlam",
+        "status": "Presale",
+        "propertyType": "Condo",
+        "bedrooms": "1 - 3",
+        "floors": 38,
+        "totalUnits": 335,
+        "estimatedCompletion": "2026",
+        "developer": "Marcon",
+        "architect": "Shift Architecture",
+        "amenities": [],
+        "images": [
+            "https://sam-salem.com/paftasse/2023/04/Elmwood-2-1024x696-1.jpg",
+            "https://sam-salem.com/paftasse/2023/04/Elmwood.jpg",
+            "https://sam-salem.com/paftasse/2023/04/Elmwood-2-1024x480-1.jpeg",
+            "https://sam-salem.com/paftasse/2023/04/Elmwood-2-1024x591-1.png"
+        ],
+        "description": "A stunning 38-storey Marcon tower designed by Shift Architecture in Coquitlam. Elmwood features 335 residences with 1 to 3 bedrooms and modern amenities — estimated completion 2026."
+    },
+    {
+        "id": "frame",
+        "title": "Frame",
+        "address": "Kingsway and Earles Street, Vancouver, BC",
+        "city": "Vancouver",
+        "area": "Vancouver East",
+        "status": "Presale",
+        "propertyType": "Condo",
+        "bedrooms": "1, 2, 3",
+        "floors": 10,
+        "totalUnits": 217,
+        "estimatedCompletion": "TBD",
+        "developer": "TBD",
+        "amenities": [],
+        "images": [
+            "https://sam-salem.com/paftasse/2023/04/111.jpeg"
+        ],
+        "description": "A 10-storey concrete development at Kingsway and Earles Street in Vancouver East offering 217 units. Near Norquay Park, shops, restaurants, and Metrotown."
+    },
+    {
+        "id": "templeton",
+        "title": "Templeton",
+        "address": "Templeton Drive and East 1st Avenue, Vancouver, BC",
+        "city": "Vancouver",
+        "area": "Commercial Drive",
+        "status": "Presale",
+        "propertyType": "Condo",
+        "bedrooms": "1, 2, 3",
+        "estimatedCompletion": "2023",
+        "developer": "TBD",
+        "amenities": [],
+        "images": [
+            "https://sam-salem.com/paftasse/2023/04/2021_05_24_06_18_22_templeton2.jpeg",
+            "https://sam-salem.com/paftasse/2023/04/2021_05_24_06_18_24_templeton8.jpeg",
+            "https://sam-salem.com/paftasse/2023/04/2021_05_24_06_18_21_templeton1.jpeg"
+        ],
+        "description": "Wood-frame residences near Vancouver's vibrant Commercial Drive. 1, 2, and 3 bedroom condos and townhomes surrounded by restaurants, coffee shops, and local services."
+    },
+    {
+        "id": "artesia",
+        "title": "Artesia",
+        "address": "Grange Street and Halley Avenue, Burnaby, BC",
+        "city": "Burnaby",
+        "area": "Metrotown",
+        "status": "Presale",
+        "propertyType": "Condo",
+        "bedrooms": "1, 2, 3",
+        "floors": 31,
+        "totalUnits": 247,
+        "estimatedCompletion": "2025",
+        "developer": "TBD",
+        "amenities": [
+            "BBQs",
+            "Bike Washing Area",
+            "Business Center with Wi-Fi",
+            "Children Play Area",
+            "Concierge Service",
+            "EV Parking & Car Share",
+            "Fitness Centre",
+            "Guest Suite",
+            "Gym",
+            "Music Room",
+            "Reading Lounge",
+            "Secure Underground Parking",
+            "Storage Lockers"
+        ],
+        "images": [
+            "https://sam-salem.com/paftasse/2023/04/2021_07_28_01_35_06_aerial_highres_cropped.jpeg",
+            "https://sam-salem.com/paftasse/2023/04/2021_09_08_03_37_57_lobby_highres.jpeg",
+            "https://sam-salem.com/paftasse/2023/04/2022_02_14_01_03_25_artesia_exterior_lobby_highres.jpeg"
+        ],
+        "description": "A 31-storey concrete tower near Metrotown Skytrain Station offering 247 residences with premium amenities including concierge, gym, co-working, EV parking, and guest suite."
+    },
+    {
+        "id": "moody-yards",
+        "title": "Moody Yards",
+        "address": "Murray Street, Port Moody, BC",
+        "city": "Port Moody",
+        "area": "Port Moody",
+        "status": "Presale",
+        "propertyType": "Condo",
+        "bedrooms": "1, 2",
+        "estimatedCompletion": "TBD",
+        "developer": "TBD",
+        "amenities": [
+            "BBQ Area",
+            "Co-Working Space",
+            "Outdoor Fitness Space"
+        ],
+        "images": [
+            "https://sam-salem.com/paftasse/2023/04/Murray_View2-web-1536x1075-1-1.jpeg",
+            "https://sam-salem.com/paftasse/2023/04/Murray_View4-web-1536x1075-1-1.jpeg"
+        ],
+        "description": "Wood-frame condos on Murray Street in Port Moody. Near Rocky Point Park, Yellow Dog Brewing, Sasamat Lake, and Port Moody Skytrain Station. Features BBQ area, co-working space, and outdoor fitness."
+    },
+    {
+        "id": "boden",
+        "title": "Boden",
+        "address": "Oak Street and West 52nd Avenue, Vancouver, BC",
+        "city": "Vancouver",
+        "area": "Oakridge",
+        "status": "Presale",
+        "propertyType": "Townhouse",
+        "bedrooms": "2, 3",
+        "estimatedCompletion": "2022",
+        "developer": "TBD",
+        "amenities": [],
+        "images": [
+            "https://sam-salem.com/paftasse/2023/04/FINAL-2021.12.09-Boden-Exterior_West_52-2048x1078-1.jpg"
+        ],
+        "description": "Wood-frame townhomes near Oakridge Skytrain Station, Oakridge Mall, and Langara Golf Course. 2 and 3 bedroom residences in Vancouver's desirable Oakridge neighbourhood."
+    }
+]
