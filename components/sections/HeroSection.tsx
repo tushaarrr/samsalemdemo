@@ -3,9 +3,15 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { CharReveal } from '@/components/animations/TextReveal';
 import ScrollReveal from '@/components/animations/ScrollReveal';
-import { MagneticButton } from '@/components/animations/HoverCard';
+
+const ctaButtons = [
+    { label: "SAM'S LISTINGS", href: '/buy/samslisting' },
+    { label: 'MLS SEARCH', href: '/listing/mls-search' },
+    { label: 'PRESALE', href: '/presale' },
+];
 
 export default function HeroSection() {
     const sectionRef = useRef<HTMLElement>(null);
@@ -19,7 +25,7 @@ export default function HeroSection() {
     return (
         <section
             ref={sectionRef}
-            className="relative w-full h-[100vh] -mt-20 flex flex-col overflow-hidden"
+            className="relative w-full min-h-[100vh] -mt-20 flex flex-col overflow-hidden"
         >
             {/* Parallax Background with Vancouver Downtown */}
             <motion.div
@@ -36,43 +42,73 @@ export default function HeroSection() {
                 />
             </motion.div>
 
-            {/* Dark overlay */}
-            <div className="absolute inset-0 bg-black/35 z-[1]" />
+            {/* Dark overlay with gradient */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60 z-[1]" />
 
-            {/* Massive Hero Text */}
-            <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-4">
+            {/* Hero Content */}
+            <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-4 pt-24">
+
+                {/* Hero Text */}
                 <CharReveal
                     text="From coffee to keys."
                     className="hero-text text-white text-center select-none"
                     delay={0.5}
                     stagger={0.04}
                 />
+
+                {/* Tagline */}
+                <ScrollReveal direction="up" delay={1.0} blur>
+                    <div className="flex flex-col items-center mt-3 mb-1">
+                        <p className="text-[#C9A84C] text-base md:text-lg font-semibold tracking-[0.15em] uppercase text-center">
+                            Your Trusted Partner for Buying &amp; Selling
+                        </p>
+                    </div>
+                </ScrollReveal>
+
+                <ScrollReveal direction="up" delay={1.2} blur>
+                    <div className="flex items-center gap-5 mb-4">
+                        <motion.div
+                            className="shrink-0"
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: 0.8, delay: 1.3, ease: [0.25, 0.1, 0.25, 1] }}
+                        >
+                            <Image
+                                src="/top1.jpeg"
+                                alt="Top 1% Greater Vancouver PREC"
+                                width={120}
+                                height={120}
+                                className="w-[90px] md:w-[110px] h-auto rounded-full shadow-[0_0_40px_rgba(201,168,76,0.5)] border-3 border-[#C9A84C]/50"
+                            />
+                        </motion.div>
+                        <p className="text-white/90 text-base md:text-lg text-left max-w-md leading-snug font-semibold">
+                            Strong focus on Presales, Condos, and Luxury Homes — Top 1% of all REALTORS in Greater Vancouver
+                        </p>
+                    </div>
+                </ScrollReveal>
             </div>
 
-            {/* Bottom CTA Area */}
-            <div className="relative z-10 flex flex-col items-center pb-20 px-4">
-                <ScrollReveal direction="up" delay={1.2} blur>
-                    <p className="text-white/80 text-lg md:text-xl text-center max-w-lg mb-8 leading-relaxed">
-                        Strong focus on Presales, Condos, and Luxury Homes — Top 1% of all REALTORS in Greater Vancouver
-                    </p>
-                </ScrollReveal>
+            {/* CTA Buttons — Row on desktop, stacked on mobile */}
+            <div className="relative z-10 flex flex-col items-center pb-16 md:pb-20 px-4">
                 <ScrollReveal direction="up" delay={1.5}>
-                    <MagneticButton>
-                        <Link href="/buy/samslisting" className="btn-pill btn-pill-light">
-                            View Properties
-                            <motion.svg
-                                className="w-4 h-4"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                                strokeWidth={2}
-                                animate={{ x: [0, 4, 0] }}
-                                transition={{ repeat: Infinity, duration: 2, ease: 'easeInOut' }}
+                    <div className="flex flex-col md:flex-row gap-3 w-full max-w-[340px] md:max-w-4xl">
+                        {ctaButtons.map((btn, i) => (
+                            <motion.div
+                                key={btn.label}
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{
+                                    duration: 0.5,
+                                    delay: 1.6 + i * 0.15,
+                                    ease: [0.25, 0.1, 0.25, 1],
+                                }}
                             >
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                            </motion.svg>
-                        </Link>
-                    </MagneticButton>
+                                <Link href={btn.href} className="hero-cta-btn">
+                                    {btn.label}
+                                </Link>
+                            </motion.div>
+                        ))}
+                    </div>
                 </ScrollReveal>
             </div>
         </section>

@@ -74,7 +74,7 @@ export default function Navbar() {
                                 SAM SALEM
                             </span>
                             <span className="text-[14px] font-bold tracking-[0.18em] text-[#86868B] uppercase group-hover:text-muted transition-colors duration-300 ml-2.5">
-                                RE/MAX
+                                SINCERE
                             </span>
                         </motion.div>
                     </Link>

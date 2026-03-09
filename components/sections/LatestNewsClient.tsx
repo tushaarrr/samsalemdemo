@@ -21,7 +21,7 @@ export default function LatestNewsClient({ posts }: LatestNewsClientProps) {
 
                 <div className="mb-16">
                     <ScrollReveal direction="up" delay={0.1}>
-                        <span className="section-label mb-6">Blogs</span>
+                        <span className="section-label mb-6">News and Articles</span>
                     </ScrollReveal>
                     <WordReveal
                         text="Stay informed with the latest market insights"

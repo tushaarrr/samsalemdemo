@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import ScrollReveal, { StaggerContainer, StaggerItem } from '@/components/animations/ScrollReveal';
 
@@ -78,11 +79,30 @@ export default function Footer() {
                 </StaggerContainer>
             </div>
 
-            {/* Giant Logo Text */}
+            {/* Logo + Badge + Giant Text */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <ScrollReveal direction="up" scale>
-                    <div className="text-[clamp(5rem,15vw,14rem)] font-bold leading-none tracking-tighter text-white/[0.07] select-none">
-                        Sam Salem
+                    <div className="flex flex-col items-start gap-6">
+                        <div className="flex items-center gap-5">
+                            <Image
+                                src="/samsalemlogo.PNG"
+                                alt="Sam Salem Sincere Real Estate Logo"
+                                width={200}
+                                height={80}
+                                className="w-[140px] md:w-[180px] h-auto brightness-0 invert opacity-70"
+                            />
+                            <div className="w-px h-12 bg-white/15" />
+                            <Image
+                                src="/top1.jpeg"
+                                alt="Top 1% Greater Vancouver PREC"
+                                width={90}
+                                height={90}
+                                className="w-[70px] md:w-[85px] h-auto rounded-full opacity-90"
+                            />
+                        </div>
+                        <div className="text-[clamp(5rem,15vw,14rem)] font-bold leading-none tracking-tighter text-white/[0.07] select-none">
+                            Sam Salem
+                        </div>
                     </div>
                 </ScrollReveal>
             </div>
@@ -130,7 +150,7 @@ export default function Footer() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
                     <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                         <p className="text-white/30 text-xs">
-                            &copy; {new Date().getFullYear()} Sam Salem | Sincere Real Estate Services. All rights reserved.
+                            &copy; {new Date().getFullYear()} Sam Salem | Personal Real Estate Corporation (PREC) | Sincere Real Estate Services. All rights reserved.
                         </p>
                         <div className="flex gap-4">
                             {[

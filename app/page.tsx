@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <WhySamSalem />
       <StatsSection />
       <FeaturedListings />
       <AreasGrid />
-      <WhySamSalem />
       <ComparisonSection />
       <ProcessSection />
       <AchievementsSection />

@@ -115,7 +115,7 @@ const MOCK_LISTINGS: MLSListing[] = [
         PublicRemarks: 'Stunning custom-built home in sought-after Shaughnessy. Open concept living with gourmet kitchen, spa-like master ensuite, and beautifully landscaped south-facing backyard.',
         ListingBrokerage: 'Sincere Real Estate Services',
         ListAgentFullName: 'Sam Salem',
-        ListOfficeName: 'RE/MAX Sincere Real Estate Services',
+        ListOfficeName: 'Sincere Real Estate Services',
         PhotoUrl: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
         Photos: [
             'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
@@ -145,7 +145,7 @@ const MOCK_LISTINGS: MLSListing[] = [
         PublicRemarks: 'Luxurious 25th-floor condo in the heart of Yaletown with breathtaking harbour views. Floor-to-ceiling windows, premium finishes, concierge service.',
         ListingBrokerage: 'Sincere Real Estate Services',
         ListAgentFullName: 'Sam Salem',
-        ListOfficeName: 'RE/MAX Sincere Real Estate Services',
+        ListOfficeName: 'Sincere Real Estate Services',
         PhotoUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80',
         Photos: [
             'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80',
@@ -264,7 +264,7 @@ const MOCK_LISTINGS: MLSListing[] = [
         PublicRemarks: 'Character home on a quiet tree-lined street in East Vancouver. Fully renovated with modern open layout, legal suite, and private backyard oasis.',
         ListingBrokerage: 'Sincere Real Estate Services',
         ListAgentFullName: 'Sam Salem',
-        ListOfficeName: 'RE/MAX Sincere Real Estate Services',
+        ListOfficeName: 'Sincere Real Estate Services',
         PhotoUrl: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80',
         Photos: [
             'https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80',
