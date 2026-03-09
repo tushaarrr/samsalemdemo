@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-body antialiased">
+      <body className="font-body antialiased overflow-x-hidden">
         <Navbar />
         <AnimationProvider>
           <main className="min-h-screen">{children}</main>
