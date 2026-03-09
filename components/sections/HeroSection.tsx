@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -15,35 +15,31 @@ const ctaButtons = [
 
 export default function HeroSection() {
     const sectionRef = useRef<HTMLElement>(null);
-    const { scrollYProgress } = useScroll({
-        target: sectionRef,
-        offset: ['start start', 'end start'],
-    });
-    const imgY = useTransform(scrollYProgress, [0, 1], ['0%', '30%']);
-    const imgScale = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
 
     return (
         <section
             ref={sectionRef}
             className="relative w-full min-h-[100vh] -mt-20 flex flex-col overflow-hidden"
         >
-            {/* Parallax Background with Vancouver Downtown */}
-            <motion.div
-                className="absolute inset-0 z-0"
-                style={{ y: imgY, scale: imgScale }}
+            {/* Video — desktop only */}
+            <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="absolute inset-0 w-full h-full object-cover hidden md:block"
             >
-                <motion.img
-                    src="/vancouverhero.jpg"
-                    alt="Vancouver Downtown skyline"
-                    className="w-full h-[120%] object-cover"
-                    initial={{ filter: 'blur(20px)', scale: 1.15 }}
-                    animate={{ filter: 'blur(0px)', scale: 1 }}
-                    transition={{ duration: 1.5, ease: [0.25, 0.1, 0.25, 1] }}
+                <source
+                    src="https://res.cloudinary.com/djtzs6kuv/video/upload/v1773072171/1396928-uhd_4096_2160_24fps_wnmpey.mp4"
+                    type="video/mp4"
                 />
-            </motion.div>
+            </video>
 
-            {/* Dark overlay with gradient */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60 z-[1]" />
+            {/* Mobile fallback */}
+            <div className="absolute inset-0 bg-gray-900 md:hidden" />
+
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black/50" />
 
             {/* Hero Content */}
             <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-4 pt-24">
