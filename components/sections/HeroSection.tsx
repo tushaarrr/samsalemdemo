@@ -202,8 +202,8 @@ export default function HeroSection() {
 
                 {/* Sam's photo — separate, pinned to bottom-left */}
                 <motion.div
-                    className="absolute bottom-0 left-0 z-10 overflow-hidden"
-                    style={{ height: '50%' }}
+                    className="absolute bottom-0 left-0 z-10"
+                    style={{ height: '52%', width: '60%' }}
                     initial={{ opacity: 0, x: -30 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
@@ -211,18 +211,9 @@ export default function HeroSection() {
                     <Image
                         src="https://res.cloudinary.com/djtzs6kuv/image/upload/v1773142137/WhatsApp_Image_2026-03-10_at_16.54.14-removebg-preview_nb6yfg.png"
                         alt="Sam Salem"
-                        width={300}
-                        height={420}
-                        className="h-full w-auto object-contain object-bottom"
+                        fill
+                        className="object-cover object-top"
                         priority
-                    />
-                    {/* Fade bottom edge into video */}
-                    <div
-                        className="absolute bottom-0 left-0 w-full"
-                        style={{
-                            height: '80px',
-                            background: 'linear-gradient(to top, rgba(0,0,0,0.95), transparent)',
-                        }}
                     />
                 </motion.div>
 
