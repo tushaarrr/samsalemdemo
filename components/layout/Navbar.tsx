@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import MobileMenu from './MobileMenu';
 
 const navLinks = [
@@ -70,9 +71,14 @@ export default function Navbar() {
                             whileHover={{ scale: 1.02 }}
                             transition={{ type: 'spring', stiffness: 400, damping: 17 }}
                         >
-                            <span className="text-[26px] font-cinzel font-black tracking-[-0.03em] text-[#1D1D1F] uppercase group-hover:text-accent transition-colors duration-300">
-                                SAM SALEM
-                            </span>
+                            <Image
+                                src="/samsalemlogo.PNG"
+                                alt="Sam Salem Logo"
+                                width={160}
+                                height={50}
+                                className="h-8 w-auto object-contain"
+                                priority
+                            />
                         </motion.div>
                     </Link>
 

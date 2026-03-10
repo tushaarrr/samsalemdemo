@@ -29,7 +29,7 @@ export default function HeroSection() {
                 className="absolute inset-0 w-full h-full object-cover"
             >
                 <source
-                    src="https://res.cloudinary.com/djtzs6kuv/video/upload/v1773072171/1396928-uhd_4096_2160_24fps_wnmpey.mp4"
+                    src="https://res.cloudinary.com/djtzs6kuv/video/upload/v1773142941/11910511_2560_1440_24fps_kksovv.mp4"
                     type="video/mp4"
                 />
             </video>
