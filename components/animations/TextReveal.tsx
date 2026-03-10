@@ -6,6 +6,7 @@ import { useRef, useMemo } from 'react';
 interface WordRevealProps {
     text: string;
     className?: string;
+    style?: React.CSSProperties;
     delay?: number;
     stagger?: number;
     once?: boolean;
@@ -14,6 +15,7 @@ interface WordRevealProps {
 export function WordReveal({
     text,
     className = '',
+    style,
     delay = 0,
     stagger = 0.04,
     once = true,
@@ -26,6 +28,7 @@ export function WordReveal({
         <motion.div
             ref={ref}
             className={className}
+            style={style}
             initial="hidden"
             animate={isInView ? 'visible' : 'hidden'}
             variants={{

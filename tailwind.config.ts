@@ -26,8 +26,11 @@ const config: Config = {
         border: "#E5E5E5",
       },
       fontFamily: {
-        heading: ["var(--font-heading)", "Georgia", "serif"],
-        body: ["var(--font-body)", "system-ui", "sans-serif"],
+        cinzel: ['Cinzel', 'serif'],
+        cormorant: ['Cormorant Garamond', 'serif'],
+        sans: ['DM Sans', 'sans-serif'],
+        heading: ['Cinzel', 'Georgia', 'serif'],
+        body: ['DM Sans', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         "2xl": "1rem",

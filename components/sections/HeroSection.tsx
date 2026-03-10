@@ -47,7 +47,7 @@ export default function HeroSection() {
                     transition={{ duration: 1, delay: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
                 >
                     <Image
-                        src="https://res.cloudinary.com/djtzs6kuv/image/upload/v1773074987/samsalempicture-removebg-preview_sfjzyc.png"
+                        src="https://res.cloudinary.com/djtzs6kuv/image/upload/v1773142137/WhatsApp_Image_2026-03-10_at_16.54.14-removebg-preview_nb6yfg.png"
                         alt="Sam Salem"
                         width={480}
                         height={680}
@@ -59,7 +59,7 @@ export default function HeroSection() {
                 {/* Text — centered over full width */}
                 <div className="relative z-10 w-full min-h-screen flex flex-col items-center justify-center text-center px-6 py-20">
                     <motion.h1
-                        className="text-6xl lg:text-7xl xl:text-8xl font-serif font-bold text-white tracking-wide mb-4"
+                        className="text-6xl lg:text-7xl xl:text-8xl font-cinzel font-bold text-white tracking-widest mb-4"
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
@@ -68,20 +68,25 @@ export default function HeroSection() {
                     </motion.h1>
 
                     <ScrollReveal direction="up" delay={0.8} blur>
-                        <p className="text-lg lg:text-xl text-white/90 font-medium mb-2">
+                        <p className="text-lg lg:text-xl text-white/90 font-cormorant font-medium mb-2">
                             Personal Real Estate Corporation
                         </p>
                     </ScrollReveal>
 
                     <ScrollReveal direction="up" delay={1.0} blur>
-                        <p className="text-xl lg:text-2xl text-white font-semibold mb-4">
+                        <p className="text-xl lg:text-2xl text-white font-cormorant font-semibold mb-4">
                             To buy or sell, call me. From coffee to keys.
                         </p>
                     </ScrollReveal>
 
                     <ScrollReveal direction="up" delay={1.1} blur>
-                        <p className="text-white/90 text-base lg:text-lg max-w-lg leading-snug font-semibold mb-8">
-                            Strong focus on Presales, Condos, and Luxury Homes — Top 1% of all REALTORS in Greater Vancouver
+                        <p className="font-cinzel text-2xl lg:text-3xl font-bold tracking-widest mb-2"
+                            style={{ color: '#C9A84C', textShadow: '0 2px 8px rgba(0,0,0,0.8)' }}>
+                            TOP 1% OF ALL REALTORS®
+                        </p>
+                        <p className="font-cormorant text-base lg:text-lg text-white/90 tracking-wide mb-8"
+                            style={{ textShadow: '0 2px 6px rgba(0,0,0,0.9)' }}>
+                            Strong focus on Presales, Condos, and Luxury Homes in Greater Vancouver
                         </p>
                     </ScrollReveal>
 
@@ -98,7 +103,11 @@ export default function HeroSection() {
                                         ease: [0.25, 0.1, 0.25, 1],
                                     }}
                                 >
-                                    <Link href={btn.href} className="hero-cta-btn">
+                                    <Link
+                                        href={btn.href}
+                                        className="border border-[#C9A84C] text-[#C9A84C] bg-transparent hover:bg-[#C9A84C] hover:text-black transition-all duration-300 font-cinzel tracking-widest text-xs h-12 px-6 whitespace-nowrap inline-flex items-center justify-center rounded-full"
+                                        style={{ boxShadow: '0 0 12px rgba(201,168,76,0.3)' }}
+                                    >
                                         {btn.label}
                                     </Link>
                                 </motion.div>
@@ -115,20 +124,25 @@ export default function HeroSection() {
                 <div className="absolute top-20 left-0 right-0 z-10 flex flex-col items-center text-center px-6 gap-3">
 
                     <ScrollReveal direction="up" delay={0.7} blur>
-                        <p className="text-base text-white/90">
+                        <p className="text-base text-white/90 font-cormorant">
                             Personal Real Estate Corporation
                         </p>
                     </ScrollReveal>
 
                     <ScrollReveal direction="up" delay={0.9} blur>
-                        <p className="text-lg text-white font-medium">
+                        <p className="text-lg text-white font-cormorant font-medium">
                             From coffee to keys.
                         </p>
                     </ScrollReveal>
 
                     <ScrollReveal direction="up" delay={1.0} blur>
-                        <p className="text-sm text-white/70 px-4">
-                            Strong focus on Presales, Condos, and Luxury Homes — Top 1% of all REALTORS in Greater Vancouver
+                        <p className="font-cinzel text-lg font-bold tracking-widest"
+                            style={{ color: '#C9A84C', textShadow: '0 2px 8px rgba(0,0,0,0.8)' }}>
+                            TOP 1% OF ALL REALTORS®
+                        </p>
+                        <p className="font-cormorant text-sm text-white/70 px-4 mt-1"
+                            style={{ textShadow: '0 2px 6px rgba(0,0,0,0.9)' }}>
+                            Strong focus on Presales, Condos, and Luxury Homes in Greater Vancouver
                         </p>
                     </ScrollReveal>
 
@@ -142,7 +156,11 @@ export default function HeroSection() {
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: 1.2, ease: [0.25, 0.1, 0.25, 1] }}
                                 >
-                                    <Link href={ctaButtons[0].href} className="hero-cta-btn w-full whitespace-nowrap h-12">
+                                    <Link
+                                        href={ctaButtons[0].href}
+                                        className="border border-[#C9A84C] text-[#C9A84C] bg-transparent hover:bg-[#C9A84C] hover:text-black transition-all duration-300 font-cinzel tracking-widest text-[10px] h-12 px-4 whitespace-nowrap inline-flex items-center justify-center rounded-full w-full"
+                                        style={{ boxShadow: '0 0 12px rgba(201,168,76,0.3)' }}
+                                    >
                                         {ctaButtons[0].label}
                                     </Link>
                                 </motion.div>
@@ -152,7 +170,11 @@ export default function HeroSection() {
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: 1.35, ease: [0.25, 0.1, 0.25, 1] }}
                                 >
-                                    <Link href={ctaButtons[1].href} className="hero-cta-btn w-full whitespace-nowrap h-12">
+                                    <Link
+                                        href={ctaButtons[1].href}
+                                        className="border border-[#C9A84C] text-[#C9A84C] bg-transparent hover:bg-[#C9A84C] hover:text-black transition-all duration-300 font-cinzel tracking-widest text-[10px] h-12 px-4 whitespace-nowrap inline-flex items-center justify-center rounded-full w-full"
+                                        style={{ boxShadow: '0 0 12px rgba(201,168,76,0.3)' }}
+                                    >
                                         {ctaButtons[1].label}
                                     </Link>
                                 </motion.div>
@@ -163,7 +185,11 @@ export default function HeroSection() {
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 1.5, ease: [0.25, 0.1, 0.25, 1] }}
                             >
-                                <Link href={ctaButtons[2].href} className="hero-cta-btn w-full whitespace-nowrap h-12">
+                                <Link
+                                    href={ctaButtons[2].href}
+                                    className="border border-[#C9A84C] text-[#C9A84C] bg-transparent hover:bg-[#C9A84C] hover:text-black transition-all duration-300 font-cinzel tracking-widest text-[10px] h-12 px-4 whitespace-nowrap inline-flex items-center justify-center rounded-full w-full"
+                                    style={{ boxShadow: '0 0 12px rgba(201,168,76,0.3)' }}
+                                >
                                     {ctaButtons[2].label}
                                 </Link>
                             </motion.div>
@@ -180,7 +206,7 @@ export default function HeroSection() {
                     transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
                 >
                     <Image
-                        src="https://res.cloudinary.com/djtzs6kuv/image/upload/v1773074987/samsalempicture-removebg-preview_sfjzyc.png"
+                        src="https://res.cloudinary.com/djtzs6kuv/image/upload/v1773142137/WhatsApp_Image_2026-03-10_at_16.54.14-removebg-preview_nb6yfg.png"
                         alt="Sam Salem"
                         width={300}
                         height={420}

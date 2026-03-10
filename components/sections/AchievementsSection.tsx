@@ -52,7 +52,8 @@ export default function AchievementsSection() {
                     </ScrollReveal>
                     <WordReveal
                         text="Why Sam Salem is not just another agent — he's your real estate partner"
-                        className="text-3xl md:text-5xl lg:text-[3.5rem] font-medium leading-tight tracking-tight max-w-3xl"
+                        className="text-3xl md:text-4xl font-cinzel font-bold leading-tight tracking-tight max-w-3xl"
+                        style={{ color: '#1a1a1a', textShadow: '2px 2px 0px rgba(201,168,76,0.4), 0 4px 12px rgba(0,0,0,0.3)' }}
                         delay={0.2}
                     />
                 </div>

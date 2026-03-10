@@ -43,7 +43,7 @@ export default function ProcessSection() {
         <section className="py-16 md:py-28 bg-cream">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <ScrollReveal direction="none" blur>
-                    <div className="section-divider mb-16" />
+                    <div className="gold-divider w-full mb-16" />
                 </ScrollReveal>
 
                 <div className="mb-16 text-center md:text-left">
@@ -51,7 +51,10 @@ export default function ProcessSection() {
                         <span className="section-label justify-center md:justify-start mb-6">Process</span>
                     </ScrollReveal>
                     <ScrollReveal direction="up" delay={0.2}>
-                        <h2 className="text-3xl md:text-5xl lg:text-[3.5rem] font-heading font-medium leading-tight tracking-tight max-w-2xl mx-auto md:mx-0">
+                        <h2
+                            className="text-3xl md:text-4xl font-cinzel font-bold leading-tight tracking-tight max-w-2xl mx-auto md:mx-0"
+                            style={{ color: '#1a1a1a', textShadow: '2px 2px 0px rgba(201,168,76,0.4), 0 4px 12px rgba(0,0,0,0.3)' }}
+                        >
                             Starting with browsing and ending with move-in day
                         </h2>
                     </ScrollReveal>
@@ -99,7 +102,7 @@ export default function ProcessSection() {
                                             <span className="hidden md:inline-block text-xs font-semibold tracking-widest uppercase text-accent mb-3">
                                                 {step.label}
                                             </span>
-                                            <h3 className="text-2xl md:text-3xl font-heading font-semibold text-foreground mb-4">
+                                            <h3 className="text-2xl md:text-3xl font-cinzel font-semibold text-foreground mb-4">
                                                 {step.title}
                                             </h3>
                                             <p className="text-muted text-sm md:text-base leading-relaxed">

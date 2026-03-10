@@ -59,8 +59,8 @@ export default function Navbar() {
             >
                 <div
                     className={`max-w-7xl mx-auto flex items-center justify-between h-14 px-6 rounded-full border transition-all duration-500 ${scrolled
-                        ? 'bg-cream/90 backdrop-blur-xl border-border shadow-lg'
-                        : 'bg-cream/70 backdrop-blur-md border-border/50'
+                        ? 'bg-cream/90 backdrop-blur-xl border-[#C9A84C]/30 shadow-lg'
+                        : 'bg-cream/70 backdrop-blur-md border-[#C9A84C]/20'
                         }`}
                 >
                     {/* Logo */}
@@ -70,11 +70,8 @@ export default function Navbar() {
                             whileHover={{ scale: 1.02 }}
                             transition={{ type: 'spring', stiffness: 400, damping: 17 }}
                         >
-                            <span className="text-[26px] font-black tracking-[-0.03em] text-[#1D1D1F] uppercase group-hover:text-accent transition-colors duration-300">
+                            <span className="text-[26px] font-cinzel font-black tracking-[-0.03em] text-[#1D1D1F] uppercase group-hover:text-accent transition-colors duration-300">
                                 SAM SALEM
-                            </span>
-                            <span className="text-[14px] font-bold tracking-[0.18em] text-[#86868B] uppercase group-hover:text-muted transition-colors duration-300 ml-2.5">
-                                SINCERE
                             </span>
                         </motion.div>
                     </Link>
@@ -92,7 +89,7 @@ export default function Navbar() {
                             >
                                 <Link
                                     href={link.href}
-                                    className="px-4 py-2 text-[13px] font-medium text-primary/80 hover:text-primary tracking-wide uppercase transition-colors duration-200"
+                                    className="px-4 py-2 text-[13px] font-medium text-primary/80 hover:text-[#C9A84C] tracking-wide uppercase transition-colors duration-200"
                                 >
                                     <span className="flex items-center gap-1">
                                         {link.label}
@@ -136,7 +133,7 @@ export default function Navbar() {
                                                     >
                                                         <Link
                                                             href={child.href}
-                                                            className="block px-5 py-3 text-sm text-primary/70 hover:text-primary hover:bg-primary/5 transition-all duration-200"
+                                                            className="block px-5 py-3 text-sm text-primary/70 hover:text-[#C9A84C] hover:bg-primary/5 transition-all duration-200"
                                                         >
                                                             {child.label}
                                                         </Link>
@@ -159,7 +156,7 @@ export default function Navbar() {
                         >
                             <Link
                                 href="/contact"
-                                className="inline-flex btn-pill btn-pill-dark text-xs"
+                                className="btn-luxury text-xs"
                             >
                                 Contact Sam
                                 <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -175,7 +172,7 @@ export default function Navbar() {
                         >
                             <div className="w-5 h-4 flex flex-col justify-between">
                                 <motion.span
-                                    className="block h-0.5 w-5 bg-primary rounded-full"
+                                    className="block h-0.5 w-5 bg-[#C9A84C] rounded-full"
                                     animate={{
                                         rotate: mobileOpen ? 45 : 0,
                                         y: mobileOpen ? 7 : 0,
@@ -183,12 +180,12 @@ export default function Navbar() {
                                     transition={{ duration: 0.3 }}
                                 />
                                 <motion.span
-                                    className="block h-0.5 w-5 bg-primary rounded-full"
+                                    className="block h-0.5 w-5 bg-[#C9A84C] rounded-full"
                                     animate={{ opacity: mobileOpen ? 0 : 1 }}
                                     transition={{ duration: 0.2 }}
                                 />
                                 <motion.span
-                                    className="block h-0.5 w-5 bg-primary rounded-full"
+                                    className="block h-0.5 w-5 bg-[#C9A84C] rounded-full"
                                     animate={{
                                         rotate: mobileOpen ? -45 : 0,
                                         y: mobileOpen ? -7 : 0,

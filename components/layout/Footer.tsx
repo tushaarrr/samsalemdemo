@@ -33,7 +33,7 @@ const areaLinks = [
 function FooterLinkColumn({ title, links }: { title: string; links: { label: string; href: string }[] }) {
     return (
         <div>
-            <h3 className="text-xs font-semibold tracking-widest uppercase text-white/40 mb-6">
+            <h3 className="text-xs font-cinzel font-semibold tracking-widest uppercase text-[#C9A84C]/60 mb-6">
                 {title}
             </h3>
             <ul className="space-y-1">
@@ -47,7 +47,7 @@ function FooterLinkColumn({ title, links }: { title: string; links: { label: str
                     >
                         <Link
                             href={link.href}
-                            className="flex items-center justify-between py-2.5 text-[15px] text-white/70 hover:text-white border-b border-white/5 transition-colors group"
+                            className="flex items-center justify-between py-2.5 text-[15px] text-white/70 hover:text-[#C9A84C] border-b border-[#C9A84C]/10 transition-colors group"
                         >
                             {link.label}
                             <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -91,7 +91,7 @@ export default function Footer() {
                                 height={80}
                                 className="w-[140px] md:w-[180px] h-auto brightness-0 invert opacity-70"
                             />
-                            <div className="w-px h-12 bg-white/15" />
+                            <div className="w-px h-12 bg-[#C9A84C]/20" />
                             <Image
                                 src="/top1.jpeg"
                                 alt="Top 1% Greater Vancouver PREC"
@@ -108,7 +108,7 @@ export default function Footer() {
             </div>
 
             {/* Newsletter + Bottom */}
-            <div className="border-t border-white/10">
+            <div className="border-t border-[#C9A84C]/20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
                     <ScrollReveal direction="up" delay={0.1}>
                         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
@@ -146,7 +146,7 @@ export default function Footer() {
             </div>
 
             {/* Copyright */}
-            <div className="border-t border-white/5">
+            <div className="border-t border-[#C9A84C]/10">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
                     <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                         <p className="text-white/30 text-xs">
@@ -164,7 +164,7 @@ export default function Footer() {
                                     href={social.href}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-white/30 hover:text-white transition-colors"
+                                    className="text-white/30 hover:text-[#C9A84C] transition-colors"
                                     aria-label={social.label}
                                     whileHover={{ scale: 1.2, y: -2 }}
                                     transition={{ type: 'spring', stiffness: 400, damping: 17 }}

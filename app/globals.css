@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=DM+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@300;400;500;600&family=DM+Sans:wght@300;400;500;600&display=swap');
 
 :root {
-  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-heading: 'Cinzel', Georgia, serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-cormorant: 'Cormorant Garamond', Georgia, serif;
 }
 
 body {
@@ -63,8 +64,8 @@ html {
 
 /* Section divider */
 .section-divider {
-  height: 1px;
-  background: #E5E5E5;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #C9A84C, transparent);
   margin: 0 auto;
 }
 
@@ -145,7 +146,7 @@ html {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #1A1A1A;
+  color: #C9A84C;
 }
 
 .section-label::before {
@@ -154,7 +155,7 @@ html {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #1A1A1A;
+  background: #C9A84C;
 }
 
 /* Hero CTA stacked buttons */
@@ -206,4 +207,49 @@ html {
   color: #C9A84C;
   transform: translateY(-2px) scale(1.02);
   box-shadow: 0 8px 32px rgba(201, 168, 76, 0.25), 0 0 0 1px rgba(201, 168, 76, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Gold glow utility */
+.gold-text {
+  color: #C9A84C;
+}
+
+.gold-shadow {
+  text-shadow: 2px 2px 0px rgba(201, 168, 76, 0.3), 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.gold-border {
+  border-color: #C9A84C;
+}
+
+/* Luxury button base */
+.btn-luxury {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #C9A84C;
+  color: #C9A84C;
+  background: transparent;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(201, 168, 76, 0.2);
+}
+
+.btn-luxury:hover {
+  background: #C9A84C;
+  color: #000;
+  box-shadow: 0 0 20px rgba(201, 168, 76, 0.5);
+}
+
+/* Gold section divider */
+.gold-divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #C9A84C, transparent);
 }
