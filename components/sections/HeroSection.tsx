@@ -219,6 +219,8 @@ export default function HeroSection() {
                             objectFit: 'contain',
                             objectPosition: 'bottom left',
                             display: 'block',
+                            WebkitMaskImage: 'linear-gradient(to top, transparent 0%, black 25%)',
+                            maskImage: 'linear-gradient(to top, transparent 0%, black 25%)'
                         }}
                         priority
                     />
