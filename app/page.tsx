@@ -7,6 +7,7 @@ import WhySamSalem from '@/components/sections/WhySamSalem';
 import ComparisonSection from '@/components/sections/ComparisonSection';
 import ProcessSection from '@/components/sections/ProcessSection';
 import AchievementsSection from '@/components/sections/AchievementsSection';
+import AwardsSection from '@/components/sections/AwardsSection';
 import Testimonials from '@/components/sections/Testimonials';
 import LatestNews from '@/components/sections/LatestNews';
 import ContactCTA from '@/components/sections/ContactCTA';
@@ -19,6 +20,7 @@ export default function Home() {
       <StatsSection />
       <GoogleReviewsSlider />
       <FeaturedListings />
+      <AwardsSection />
       <AreasGrid />
       <ComparisonSection />
       <ProcessSection />

@@ -82,7 +82,7 @@ export default function HeroSection() {
                     <ScrollReveal direction="up" delay={1.1} blur>
                         <p className="font-cinzel text-2xl lg:text-3xl font-bold tracking-widest mb-2"
                             style={{ color: '#C9A84C', textShadow: '0 2px 8px rgba(0,0,0,0.8)' }}>
-                            TOP 1% OF ALL REALTORS®
+                            Top 1% of all Realtors®️ | GVR 2023
                         </p>
                         <p className="font-cormorant text-base lg:text-lg text-white/90 tracking-wide mb-8"
                             style={{ textShadow: '0 2px 6px rgba(0,0,0,0.9)' }}>
@@ -141,7 +141,7 @@ export default function HeroSection() {
                     <ScrollReveal direction="up" delay={1.0} blur>
                         <p className="font-cinzel text-lg font-bold tracking-widest"
                             style={{ color: '#C9A84C', textShadow: '0 2px 8px rgba(0,0,0,0.8)' }}>
-                            TOP 1% OF ALL REALTORS®
+                            Top 1% of all Realtors®️ | GVR 2023
                         </p>
                         <p className="font-cormorant text-sm text-white/70 px-4 mt-1"
                             style={{ textShadow: '0 2px 6px rgba(0,0,0,0.9)' }}>
