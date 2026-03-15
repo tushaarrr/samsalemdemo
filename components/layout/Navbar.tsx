@@ -15,11 +15,12 @@ const navLinks = [
             { label: "Sam's Listings", href: '/buy/samslisting' },
             { label: 'Presale Properties', href: '/presale' },
             { label: 'Office Listing', href: '/listing/office-listing' },
+            { label: 'Assignment', href: '/listing/assignment' },
             { label: 'Sold Properties', href: '/buy/sold' },
         ],
     },
     { label: 'Areas', href: '/areas' },
-    { label: 'Sell', href: '/sell' },
+    { label: 'Assignment', href: '/listing/assignment' },
     {
         label: 'News',
         href: '/news/articles',

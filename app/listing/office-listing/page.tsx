@@ -19,12 +19,7 @@ export default async function OfficeListingPage() {
                 <div className="absolute inset-0 bg-gradient-to-b from-primary via-primary/95 to-background" />
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <div className="max-w-3xl">
-                        <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 border border-accent/30 mb-6">
-                            <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-                            <span className="text-accent font-body font-semibold text-xs tracking-[0.15em] uppercase">
-                                Office Listings
-                            </span>
-                        </span>
+
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-medium text-white mb-4 tracking-tight">
                             Office Listings
                         </h1>
