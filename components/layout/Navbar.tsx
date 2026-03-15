@@ -19,7 +19,22 @@ const navLinks = [
             { label: 'Sold Properties', href: '/buy/sold' },
         ],
     },
-    { label: 'Areas', href: '/areas' },
+    {
+        label: 'Areas We Serve',
+        href: '/areas',
+        children: [
+            { label: 'Burnaby', href: '/areas/burnaby' },
+            { label: 'Coquitlam', href: '/areas/coquitlam' },
+            { label: 'Maple Ridge', href: '/areas/maple-ridge' },
+            { label: 'New Westminster', href: '/areas/new-westminster' },
+            { label: 'North Vancouver', href: '/areas/north-vancouver' },
+            { label: 'Pitt Meadows', href: '/areas/pitt-meadows' },
+            { label: 'Port Coquitlam', href: '/areas/port-coquitlam' },
+            { label: 'Port Moody', href: '/areas/port-moody' },
+            { label: 'Vancouver', href: '/areas/vancouver' },
+            { label: 'West Vancouver', href: '/areas/west-vancouver' },
+        ],
+    },
     { label: 'Assignment', href: '/listing/assignment' },
     {
         label: 'News',
