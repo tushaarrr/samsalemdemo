@@ -54,7 +54,6 @@ const navLinks = [
             { label: 'Affordability Calculator', href: '/tools/affordability-calculator' },
         ],
     },
-    { label: 'Contact', href: '/contact' },
 ];
 
 export default function Navbar() {
